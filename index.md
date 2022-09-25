@@ -26,6 +26,8 @@ code how ever big you want it
 
 > Maximiliano
 
+[Lab Report 1](lab-report-1-week-0.html)
+
 
 
 
