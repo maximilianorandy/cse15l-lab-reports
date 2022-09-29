@@ -1,4 +1,4 @@
-# _OJ didn't do it._
+# [Lab Report 1](lab-report-1-week-0.html)
 *Italy*
 **Bold Print**
 # Heading
