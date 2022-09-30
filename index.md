@@ -1,36 +1,9 @@
+# Maximilianos CSE 15L Website
+
+
 ## [Lab Report 0](lab-report-1-week-0.html)
-
-
-
-
-*Italy*
-**Bold Print**
-# Heading
-[Link to Star Wars](https://www.starwars.com)
-> Grocery List
-
----
-- eggs
-- bananas
-- butter
-- flower
-1) Wash Bananas
-2) Mix Ingredients
-
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwo8NQ391-ikcWLEByG1CJv8ka_XnvUhuWLM0Sw7SyKPaLLSNTTMQqUXKNDj2pMoOHMyM&usqp=CAU)
-
-`Hello world` this is the example all teachers use
-
-```
-this makes a 
-block
-of 
-code how ever big you want it
-```
-
-> Maximiliano
-
-
+***
+This Lab was my first lab and in it we created a website and learned how to add different styles of text to it such as *Italics* and **Bold**
 
 
 
