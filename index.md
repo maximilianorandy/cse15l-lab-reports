@@ -1,4 +1,4 @@
-title: [Maximilianos CSE 15L Website]
+Maximilianos CSE 15L Website
 
 
 ## [Lab Report 0](lab-report-1-week-0.html)
