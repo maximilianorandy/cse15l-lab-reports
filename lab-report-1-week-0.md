@@ -19,7 +19,7 @@ A2: I read both of those documents and tried all of them in the file you can see
 
 *Q3: Which of the following styles works?*
 
-* [Lab Report 1](lab-report-1-week-0.html)
-* [Lab Report 1](https://<your-username>.github.io/<your-lab-reports-repo>/lab-report-1-week-0.html)
+* [Lab Report 1] (lab-report-1-week-0.html)
+* [Lab Report 1] (https://<your-username>.github.io/<your-lab-reports-repo>/lab-report-1-week-0.html)
 
 A3: They both work but the easier one for me was the first one because it was easier to deal with the link.
