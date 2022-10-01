@@ -17,3 +17,7 @@ Second you will need to connect to the server remotely and to do that we must ty
 
 ## Trying Some Commands
 The third thing you need to do is to enter into the bar different commands for example to enter the `cd` command you are changing the command directory. When you do `ls -a` it prints out a list of the files in a block format and in `ls -lat` it lists the files with one on each line.
+
+## Moving Files with scp
+The fourth thing you need to do is to be in your client and to type `scp` 
+ 
