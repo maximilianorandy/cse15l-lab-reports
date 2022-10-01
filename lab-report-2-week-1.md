@@ -25,4 +25,4 @@ The fourth thing you need to do is to be in your client and to type `scp` and th
 So to set up an "SSH Key" you need to then run the command `ssh-keygen` and then that will give you a file called a public key and a private key which you will then store into two seperate places. You will need to store the purblic key into the .ssh directoy.
 
 ## Optimizing Remote Running
- 
+To do this you will need to write the regular log in and then at the end instead of pressing enter you will write in quotation marks. The command you want to run in the remote server will then run once you press enter, it will run because you are sending a message from the client to the server.
