@@ -23,7 +23,7 @@ The third thing you need to do is to enter into the terminal different commands 
 ![photo Lab 1 #4](https://user-images.githubusercontent.com/66755589/195947998-fbe1a69c-67d0-418a-af73-cab3ffc22778.png)
 
 ## Moving Files with scp
-The fourth thing you need to do is to be in your client and to type `scp` and then enter the name of the file you need to transfer which in this case is WhereAmI.java which holds the code below:
+The fourth thing you need to do is to be in your client and to type `scp` into the terminal and then enter the name of the file you need to transfer which in this case is WhereAmI.java which is a file that we make and holds the code below:
 
 ![photo Lab 1 #1](https://user-images.githubusercontent.com/66755589/195941854-7c9194c8-c549-482a-a35f-b92de0136435.png)
 
