@@ -48,4 +48,8 @@ To store it in the remote server we must log in and type into the terminal mkdir
 "\Users\maxim/.ssh/id_ed25519.pub cs15lfa22ev@ieng6.ucsd.edu" that is my path your path can be seen before your cliet loads up the text image, then after that you write ":~/ssh/authorized_keys" to end off the line your writing with not spaces between the pieces. Once you press enter it should be done and it should work for you to just enter the ssh log in info then press enter and it will just go straight in.
 
 ## Optimizing Remote Running
-To do this you will need to write the regular log in and then at the end instead of pressing enter you will write in quotation marks. The command you want to run in the remote server will then run once you press enter, it will run because you are sending a message from the client to the server.
+To omtomize remote running we could set up the SSH key like we did above which makes it so much easier for us to log into the server from the client.
+
+We could also type in terminal line after we write in our ssh log in info and put quotation marks what we would like to do in the server online. This is what I did in the picture below and in there I used `ls` to read me out the files
+
+![oprtimizing remote running](https://user-images.githubusercontent.com/66755589/195964289-82ea2438-9070-48ad-b155-e725474bce78.png)
