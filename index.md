@@ -10,3 +10,6 @@ This Lab was my first lab and in it we created a website and learned how to add 
 
 This Lab was my first in person lab and in it we learned how to access the remote server through Visual Studio Code. We then where able to send files from our client to the servers. Then we played around with the different command prompts.  
 
+## [Lab Report #3](lab-report-week-3.html)
+
+This lab focused on running our own server and it was pretty cool because we made local websites from our computer and controlled them, we also worked with 
