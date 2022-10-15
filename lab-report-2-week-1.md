@@ -23,14 +23,24 @@ The third thing you need to do is to enter into the terminal different commands 
 ![photo Lab 1 #4](https://user-images.githubusercontent.com/66755589/195947998-fbe1a69c-67d0-418a-af73-cab3ffc22778.png)
 
 ## Moving Files with scp
-The fourth thing you need to do is to be in your client and to type `scp` into the terminal and then enter the name of the file you need to transfer which in this case is WhereAmI.java which is a file that we make and holds the code below:
+We will be useing WhereAmI.java and the code for it is seen as below:
 
 ![photo Lab 1 #1](https://user-images.githubusercontent.com/66755589/195941854-7c9194c8-c549-482a-a35f-b92de0136435.png)
 
-Then write your user name again with this at the end `:~/` we type this at the end to tell the computer that we are done with that section and we could even type a different file name to change its name. It will then prompt you for your password and once you enter it, the name of the file you transferred will be written there.
+We have to check if we have the code in the right folder before we send it so we type `javac WhereAmI.java` which complies the code and `java WhereAmI.java` which runs it then we know we have it and it is availible to send it to the server. You can see this demonstraited below.
+
+![photo Lab 1 #5](https://user-images.githubusercontent.com/66755589/195962596-6cf73b4c-8947-4da0-8b10-2539510715ad.png)
+
+So now to send it you need to be in your client terminal and to type `scp` and then enter the name of the file you need to transfer which in this case is `WhereAmI.java` . Then write your user name again with this at the end `:~/` we type this at the end to tell the computer that we are done with that section and we could even type a different file name to change its name. It will then prompt you for your password and once you enter it, the name of the file you transferred will be written there.
+
+![scp](https://user-images.githubusercontent.com/66755589/195962697-e4a9ed20-221d-43cf-8bd0-eecc96aeddc5.png)
+
+We can then go into the server and see if the file is there by doing the `ls -a` and you can see below that the file from the computer is now on the server.
+
+![photo Lab 1 #6](https://user-images.githubusercontent.com/66755589/195962755-83e41d80-b9f7-4131-b335-2f7b20c7b65d.png)
 
 ## Setting an SSH Key
-So to set up an "SSH Key" you need to then run the command `ssh-keygen` and then that will give you a file called a public key and a private key which you will then store into two seperate places. You will need to store the purblic key into the .ssh directoy.
+So to set up an "SSH Key" you need to then run the command `ssh-keygen` and then that will give you a file called a public key and a private key which you will then store into two seperate places. You will need to store the purblic key into the .ssh directory.
 
 ## Optimizing Remote Running
 To do this you will need to write the regular log in and then at the end instead of pressing enter you will write in quotation marks. The command you want to run in the remote server will then run once you press enter, it will run because you are sending a message from the client to the server.
