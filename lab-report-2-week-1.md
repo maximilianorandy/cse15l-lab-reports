@@ -31,7 +31,7 @@ We have to check if we have the code in the right folder before we send it so we
 
 ![photo Lab 1 #5](https://user-images.githubusercontent.com/66755589/195962596-6cf73b4c-8947-4da0-8b10-2539510715ad.png)
 
-So now to send it you need to be in your client terminal and to type `scp` and then enter the name of the file you need to transfer which in this case is `WhereAmI.java` . Then write your user name again with this at the end `:~/` we type this at the end to tell the computer that we are done with that section and we could even type a different file name to change its name. It will then prompt you for your password and once you enter it, the name of the file you transferred will be written there.
+So now to send it you need to be in your client terminal and to type `scp` and then enter the name of the file you need to transfer which in this case is `WhereAmI.java` . Then write your user name again with this at the end `:~/` we type this at the end to tell the computer that we are done with that section. It will then prompt you for your password and once you enter it, the name of the file you transferred will be written there.
 
 ![scp](https://user-images.githubusercontent.com/66755589/195962697-e4a9ed20-221d-43cf-8bd0-eecc96aeddc5.png)
 
@@ -40,7 +40,12 @@ We can then go into the server and see if the file is there by doing the `ls -a`
 ![photo Lab 1 #6](https://user-images.githubusercontent.com/66755589/195962755-83e41d80-b9f7-4131-b335-2f7b20c7b65d.png)
 
 ## Setting an SSH Key
-So to set up an "SSH Key" you need to then run the command `ssh-keygen` and then that will give you a file called a public key and a private key which you will then store into two seperate places. You will need to store the purblic key into the .ssh directory.
+So to set up a `SSH` we will need to be in the client terminal and we will need to write `ssh-keygen -t ed25519` and once we write that in there we press enter and it will ask to press a key so we use `enter` and then we will do it again to confirm it to the computer then it will generate a privte key and a public key. You will get the picture that loads onto your screen like the picture below and the private key will be store in the remote server, which is what we will do next
+
+![creating key](https://user-images.githubusercontent.com/66755589/195964024-79521b57-a86f-4c47-99ad-b2ea19f4297e.png)
+
+To store it in the remote server we must log in and type into the terminal mkdir .ssh and that will store the piece of the key in the server which will make it easier for us to open the server from our computer. We then log our of it then go to the client. there we will write our own personal path to tell the key where the other end it, the path I wrote for mine is 
+"\Users\maxim/.ssh/id_ed25519.pub cs15lfa22ev@ieng6.ucsd.edu" that is my path your path can be seen before your cliet loads up the text image, then after that you write ":~/ssh/authorized_keys" to end off the line your writing with not spaces between the pieces. Once you press enter it should be done and it should work for you to just enter the ssh log in info then press enter and it will just go straight in.
 
 ## Optimizing Remote Running
 To do this you will need to write the regular log in and then at the end instead of pressing enter you will write in quotation marks. The command you want to run in the remote server will then run once you press enter, it will run because you are sending a message from the client to the server.
