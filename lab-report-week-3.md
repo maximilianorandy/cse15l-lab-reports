@@ -6,7 +6,6 @@ Week 3 Lab
 
 ## Code
 
-
 For this lab this week we focused on making our own search engine, the code for that search engine is below.
 
 ```
@@ -93,9 +92,9 @@ Here we added items arraylist that holds the information of the website. The cod
 ![add a new string lab 3 picture](https://user-images.githubusercontent.com/66755589/197440113-43337b58-efcb-4799-927f-f3da0cd2cfb0.png)
 
 ## Query:
-![default lab 3](https://user-images.githubusercontent.com/66755589/197440119-cec696b1-0bda-4b2e-82ab-3be9acc5f4bf.png)
 
-## Search:
+To search through the data base we have to 
+
 ![search function](https://user-images.githubusercontent.com/66755589/197440250-0c97e6b2-1586-4b6d-b913-2639b66ed9cd.png)
 
 # Part 2
