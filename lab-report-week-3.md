@@ -78,13 +78,13 @@ Below is a picture of what it looks like in the terminal when you run the comman
 
 ![run command for lab 3](https://user-images.githubusercontent.com/66755589/197430006-010beb6f-b1ed-423a-83fb-88237c031b37.png)
  
-Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that. The part that takes us just to the website is called the "domain".
+Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that. The part that takes us just to the website is called the "domain". The link for the image below we used here is `http://localhost:2850` the domain is infront of the path then goes the query.`
 
 ![default lab 3](https://user-images.githubusercontent.com/66755589/197433869-51f4a439-e64d-4852-a75f-6ad9180f35f9.png)
 
 ## Adding Items:
 
-Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the "/add" in the URL that is called the path and that is where it tells us what action we are going to be doing the "/" tells the code that its starting to go down a path. The the part after it is "?" which signifies that we are now in the query part of the URL. After that there is "s" which signifies the start of the items we are adding to the storage. Finally comes "=" which seperates the URL pieces from what we are going to add. Whatever we write gets added to the arraylist and its what you can see in the screen shot below.
+Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the "/add" in the URL that is called the path and that is where it tells us what action we are going to be doing the "/" tells the code that its starting to go down a path. The the part after it is "?" which signifies that we are now in the query part of the URL. After that there is "s" which signifies the start of the items we are adding to the storage. Finally comes "=" which seperates the URL pieces from what we are going to add. Whatever we write gets added to the arraylist and its what you can see in the screen shot below. The link for the first example we used here is `http://localhost:2888/add?s=pineapple` the domain is infront of the path then goes the query.
 
 
 
