@@ -78,19 +78,23 @@ Below is a picture of what it looks like in the terminal when you run the comman
 
 ![run command for lab 3](https://user-images.githubusercontent.com/66755589/197430006-010beb6f-b1ed-423a-83fb-88237c031b37.png)
  
-Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that.
+Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that. The part that takes us just to the website is called the "domain".
+
 ![default lab 3](https://user-images.githubusercontent.com/66755589/197433869-51f4a439-e64d-4852-a75f-6ad9180f35f9.png)
 
 ## Adding Items:
 
-Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the "/add" in the URL and the the part after it is "?" which leads us to the query and then after that there is "s" where is for search because we are stroing the item in the search query =app
+Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the "/add" in the URL that is called the path and that is where it tells us what action we are going to be doing the "/" tells the code that its starting to go down a path. The the part after it is "?" which signifies that we are now in the query part of the URL. After that there is "s" which signifies the start of the items we are adding to the storage. Finally comes "=" which seperates the URL pieces from what we are going to add. Whatever we write gets added to the arraylist and its what you can see in the screen shot below.
+
+
+
 ![pineapple added](https://user-images.githubusercontent.com/66755589/197440102-1ad3e478-7090-40bf-9e95-6162b14617ce.png)
 
 ![apple added](https://user-images.githubusercontent.com/66755589/197440107-26397848-3bdd-4392-bfea-21143880d087.png)
 
 ![add a new string lab 3 picture](https://user-images.githubusercontent.com/66755589/197440113-43337b58-efcb-4799-927f-f3da0cd2cfb0.png)
 
-Query:
+## Query:
 ![default lab 3](https://user-images.githubusercontent.com/66755589/197440119-cec696b1-0bda-4b2e-82ab-3be9acc5f4bf.png)
 
 ## Search:
