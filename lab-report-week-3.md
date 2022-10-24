@@ -73,20 +73,18 @@ class SearchEngine {
 
 ## Default:
 
-So to even start the website, to get to the default page you need to run the code first by compling it in the terminal with the command `javac Server.java SearchEngine.java` and then by running it with `java SearchEngine 2850` we add a random 4 digit number at the end of it because that is the port we want to put it in. Then in return we get the output, "Server Started! Visit http://localhost:2850 to visit." which is the link we need to visit for the site.
+So to even start the website, to get to the default page you need to run the code first by compling it in the terminal with the command `javac Server.java SearchEngine.java` and then by running it with `java SearchEngine 2850` we add a random 4 digit number at the end of it because that is the port we want to put it in. Then in return we get the output, `Server Started! Visit http://localhost:2850 to visit.` which is the link we need to visit for the site.
 Below is a picture of what it looks like in the terminal when you run the commands.
 
 ![run command for lab 3](https://user-images.githubusercontent.com/66755589/197430006-010beb6f-b1ed-423a-83fb-88237c031b37.png)
  
-Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that. The part that takes us just to the website is called the "domain". The link for the image below we used here is `http://localhost:2850` the domain is infront of the path then goes the query.`
+Here is a picture of what it looks when you put the web site link onto your browser. Since we do not have any "/"s after the first part of the link then the code just goes to the home page. If it did have a "/" then the code would look for the word after it and sort it into different actions based off of that. The part that takes us just to the website is called the "domain". The link for the image below we used here is `http://localhost:2850` the domain is infront of the path then goes the query.
 
 ![default lab 3](https://user-images.githubusercontent.com/66755589/197433869-51f4a439-e64d-4852-a75f-6ad9180f35f9.png)
 
 ## Adding Items:
 
-Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the "/add" in the URL that is called the path and that is where it tells us what action we are going to be doing the "/" tells the code that its starting to go down a path. The the part after it is "?" which signifies that we are now in the query part of the URL. After that there is "s" which signifies the start of the items we are adding to the storage. Finally comes "=" which seperates the URL pieces from what we are going to add. Whatever we write gets added to the arraylist and its what you can see in the screen shot below. The link for the first example we used here is `http://localhost:2888/add?s=pineapple` the domain is infront of the path then goes the query.
-
-
+Here we added items arraylist that holds the information of the website. The code knows that we where trying to add an item because of the `/add` in the URL that is called the path and that is where it tells us what action we are going to be doing the `/` tells the code that its starting to go down a path. The the part after it is `?` which signifies that we are now in the query part of the URL. After that there is `s` which signifies the start of the items we are adding to the storage. Finally comes `=` which seperates the URL pieces from what we are going to add. Whatever we write gets added to the arraylist and its what you can see in the screen shot below. The link for the first example we used here is `http://localhost:2888/add?s=pineapple` the domain is infront of the path then goes the query. We added pineapple, apple, and anewstringtoadd to the arraylist.
 
 ![pineapple added](https://user-images.githubusercontent.com/66755589/197440102-1ad3e478-7090-40bf-9e95-6162b14617ce.png)
 
