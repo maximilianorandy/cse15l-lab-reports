@@ -93,7 +93,7 @@ Here we added items arraylist that holds the information of the website. The cod
 
 ## Query:
 
-To search through the data base we have to 
+To search through the data base we have to have the path set to `/search` which will put you through the if statement on the code. Then like before the question mark `?` is used to help signify that you are in the query part of the URL. Then you will continue with the rest like before, so you add `s` and `=` to tell it your going to start to add items to your app
 
 ![search function](https://user-images.githubusercontent.com/66755589/197440250-0c97e6b2-1586-4b6d-b913-2639b66ed9cd.png)
 
