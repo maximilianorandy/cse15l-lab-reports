@@ -98,3 +98,5 @@ To search through the data base we have to have the path set to `/search` which 
 ![search function](https://user-images.githubusercontent.com/66755589/197440250-0c97e6b2-1586-4b6d-b913-2639b66ed9cd.png)
 
 # Part 2
+
+
