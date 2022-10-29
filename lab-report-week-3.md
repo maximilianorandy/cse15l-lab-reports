@@ -99,9 +99,7 @@ To search through the data base we have to have the path set to `/search` which 
 
 # Part 2
 
-## Bug 1:
-
-## Bug 2: reverseInPlace() Method
+## Bug: reverseInPlace() Method
 
 The reverseInPlace method is supposed to reverse the order of all the items in the input method.
 
@@ -141,8 +139,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-**Conection:** The
-
+**Conection:** The bug causes that output with the input because the code was making it so that the item was being replaced with its opposite counter part then it was cycling through and the items that where in the spot they are coppying to the back where already changed so they where looking at the old items that where in the back half so it would just put them back there again.
 
 
 
