@@ -99,4 +99,50 @@ To search through the data base we have to have the path set to `/search` which 
 
 # Part 2
 
+## Bug 1:
+
+## Bug 2: reverseInPlace() Method
+
+The reverseInPlace method is supposed to reverse the order of all the items in the input method.
+
+**Original Code**
+'''
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+'''
+
+**The failure-inducing input:**
+
+For the test we input an array with {1,2,3,4} and we expected to get it back with the order reversed so it would look like this {4,3,2,1}...
+
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input = {1,2,3,4};
+    int[] expected = {4,3,2,1};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(expected, input);
+	}
+```
+**Symptom:**  The output information that we got from the junit test was "arrays first differed at element [2]; expected:<2> but was:<3>"
+
+**Bug:**  After looking at the code I noticed that the code was taking half of the code and mirroring it to the other side. I noticed this because the array was {4,3,3,4} after we would put it through the method. It was doing this because of how there was no temporary spot to hold the item from one spot so it could be placed in another, the code was putting the item from the opposite index into the spot that the for loop was going through without putting the spot we where looking at to another place. This cause for only half of the array to be coppied to the other side. The way I fixed the bug was by dividing the loop by 2 this made it would it would only cycle through half the list. Then I made a tempary varriable and that varriable would hold the item we where looking at then the item we put into the temporary spot would get the item held in the opposite idex on the array. Then I set the item from the opposite side to the temporary value and it would do this and cycle thriough half the list so it would only hit half of the items and switch them all.
+
+**Revised Code:**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i]
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i -1] = temp;
+    }
+  }
+```
+**Conection:** The
+
+
+
 
