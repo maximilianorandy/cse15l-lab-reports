@@ -13,3 +13,7 @@ This Lab was my first in person lab and in it we learned how to access the remot
 ## [Lab Report #3](lab-report-week-3.html)
 
 This lab focused on running our own server and it was pretty cool because we made local websites from our computer and controlled them, we also worked with 
+
+## [Lab Report #4](lab-report4-week-3.md)
+
+This lab had us pick one of the different commands and had us look at the different things within it that we can use.
