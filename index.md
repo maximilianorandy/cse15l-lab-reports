@@ -17,3 +17,7 @@ This lab focused on running our own server and it was pretty cool because we mad
 ## [Lab Report #4](lab-report4-week-3.md)
 
 This lab had us pick one of the different commands and had us look at the different things within it that we can use.
+
+## [Lab Report #5](lab-report-5-week-7.md)
+
+jk;jjkb
